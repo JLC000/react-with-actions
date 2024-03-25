@@ -29,3 +29,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
         dockerfile: Dockerfile-prod
         tags: latest
+        
