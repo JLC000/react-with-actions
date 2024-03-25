@@ -25,8 +25,7 @@ jobs:
       with:
         name: kenessajr/react-with-actions/react-with-actions
         registry: docker.pkg.github.com
-        username: ${{ secrets.GITHUB_ACTOR }}
+        username: ${{ secrets.GITHUB_USERNAME }}
         password: ${{ secrets.GITHUB_TOKEN }}
         dockerfile: Dockerfile-prod
         tags: latest
-        
